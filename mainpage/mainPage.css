@@ -1,0 +1,246 @@
+.resume, .edu, .job, .linkedin, .projects{
+    color:black;
+    font-weight: bold;
+    font-size: large;
+    transition: background-color 0.25s;
+    border-style: solid;
+    margin-top: 20px;
+    border-width: 6px;
+    text-align: center;
+    border-radius: 20px;
+    border-color: rgb(63, 33, 63);
+    width:190px;
+    padding: 5px;
+    height:100px
+
+}
+
+.resume:hover, .edu:hover, .job:hover, .linkedin:hover, .projects:hover{
+    color: white;
+    background-color: rgb(63, 33, 63);
+    border-color:white;
+
+
+
+}
+
+
+
+
+
+.resumelink, .edulink, .joblink, .linkedinlink, .projectslink{
+    text-decoration: none;
+    
+  
+}
+
+
+body{
+    background-image: url("../images/1_Sg_2rJgowrzWIWkaiTxPkA.jpg");
+    
+
+    font-family: Montserrat;
+    border-right: 80px solid rgb(63, 33, 63);
+    border-left: 80px solid rgb(63, 33, 63);
+    border-bottom: 100px solid rgb(63, 33, 63);
+
+    
+    margin: 0;
+    padding: 0;
+    
+    
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100% 30vh;
+
+    
+}
+
+
+
+
+.intro{
+    width:70%;
+    margin:auto;
+    padding:40px;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 15px;
+    background-color: rgb(63, 33, 63);
+    color:white;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 7px;
+    overflow: hidden;
+    margin-bottom:80px;
+
+    
+
+    
+}
+
+.toplinks{
+    
+    display:flex;
+    justify-content: center;
+    gap: 50px;
+   
+    
+
+}
+
+
+.mypic{
+    display:block;
+    margin: 0 auto;
+    object-fit: contain;
+    margin-top: 40px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border-style:solid;
+    border-width: 6px;
+    border-color: rgb(63, 33, 63);
+}
+
+
+
+.title{
+    text-align: center;
+    margin:auto;
+    margin-top:40px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+@media (max-width: 1024px) {
+
+
+
+
+
+    .resume, .edu, .job, .linkedin, .projects{
+        color:black;
+        font-weight: bold;
+        font-size: large;
+        transition: background-color 0.25s;
+        border-style: solid;
+        border-width: 6px;
+        text-align: center;
+        border-radius: 20px;
+        border-color: rgb(63, 33, 63);
+      
+        
+        
+    
+    }
+
+
+    .resume:hover, .edu:hover, .job:hover, .linkedin:hover, .projects:hover{
+        color: white;
+        background-color: rgb(63, 33, 63);
+        border-color:white;
+    
+    
+    
+    }
+    
+    
+    
+    
+    
+    .resumelink, .edulink, .joblink, .linkedinlink, .projectslink{
+        text-decoration: none;
+        
+      
+    }
+    
+    
+    body{
+        background-image: url("../images/1_Sg_2rJgowrzWIWkaiTxPkA.jpg");
+        
+    
+        font-family: Montserrat;
+        border-right: 30px solid rgb(63, 33, 63);
+        border-left: 30px solid rgb(63, 33, 63);
+        border-bottom: 30px solid rgb(63, 33, 63);
+    
+        
+        margin: 0;
+        padding: 0;
+        
+        
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: 100% 30vh;
+    
+        
+    }
+    
+    
+    
+    
+    .intro{
+        width:70%;
+        margin:auto;
+        padding:40px;
+        margin-top: 100px;
+        text-align: center;
+        font-size: 15px;
+        background-color: rgb(63, 33, 63);
+        color:white;
+        border-radius: 30px;
+        border-style: solid;
+        border-color: black;
+        border-width: 7px;
+        overflow: hidden;
+        margin-bottom:80px;
+    
+        
+    
+        
+    }
+    
+    .toplinks{
+        
+        
+        display: flex;  /* Ensures flex properties apply */
+        flex-direction: column;  /* Stack items vertically */
+        justify-content: center;  /* Centers items */
+        align-items: center;  /* Centers items horizontally */
+        gap: 10px;
+       
+        
+    
+    }
+    
+    
+    .mypic{
+        display:block;
+        margin: 0 auto;
+        object-fit: contain;
+        margin-top: 40px;
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        border-style:solid;
+        border-width: 6px;
+        border-color: rgb(63, 33, 63);
+    }
+    
+    
+    
+    .title{
+        text-align: center;
+        margin:auto;
+        margin-top:40px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    
+
+
+
+}
